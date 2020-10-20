@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport",content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Hamburger Menu</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <h1> This is the Hamburger Menu design!</h1>
+
+    <div class="mobile-container">
+        <div class="topnav">
+            <a href="#home" class="home" >HOME</a>
+
+            <div id="links">
+                <a href="#about">About</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#about">Contact</a>
+            </div>
+
+            <a href="javascript:void(0);" class="icon menu" onclick="myfunction()">
+               	<i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div style="padding:15px;color:white">
+            <h3>Vertical Mobile Navbar</h3>
+            <p>This example demonstrates how a navigation menu on a mobile/smart phone could look like.</p>
+            <h4> Click on the hamburger menu symbol to reveal the contents of the menu.</h4>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    
+
+function myfunction(){
+    var x = document.getElementById("links");
+
+    if(x.style.display === "block"){ 
+        x.style.display = "none";
+        secondfunction(this);
+
+
+    }else{
+
+        x.style.display = "block";
+
+       
+    }
+}
+</script>
+</html>

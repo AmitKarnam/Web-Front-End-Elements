@@ -1,0 +1,45 @@
+.mobile-container{
+    max-width:480px;
+    height:500px;
+    background-color:#555;
+    color:black;
+    margin:auto;
+}
+
+.topnav{
+    overflow: hidden;
+    position: relative;
+
+}
+
+.topnav a{
+    text-decoration:none;
+    padding:15px 15px;
+    display:block;
+    color:white;
+}
+
+#links{
+    display:none;
+}
+
+.topnav a.icon{
+    display:block;
+    position:absolute;
+    background-color:black;
+    top:0;
+    right:0;
+    color:white;
+    height:auto;
+}
+
+
+.topnav a:hover{
+    background-color:#ddd;
+    color:black;
+}
+.home{
+    background-color: #4CAF50;
+    color: white;
+  }
+
